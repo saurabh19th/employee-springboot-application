@@ -14,8 +14,9 @@ public class DemoApplication implements CommandLineRunner{
 
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
+		System.out.println("Saurabh");
 	}
-
+   
 	@Override
 	public void run(String... args) throws Exception {
 		System.out.println(passwordEncoder.encode("123"));
